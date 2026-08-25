@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/hero.svg" width="100%" alt="MarStack Labs — run your own cloud: compute, identity, secrets, network" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/hero.svg?v=2" width="100%" alt="MarStack Labs — run your own cloud: compute, identity, secrets, network" />
 </p>
 
 <p align="center">
@@ -8,28 +8,28 @@
   <img src="https://img.shields.io/badge/Built%20with-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
 </p>
 
-<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider.svg?v=2" width="100%" alt="" />
 
-<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-platform.svg" width="100%" alt="Platform" />
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/layers.svg" width="100%" alt="Four layers: access, secrets, compute, network" />
-</p>
-
-<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider-mirror.svg" width="100%" alt="" />
-
-<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-principles.svg" width="100%" alt="Principles" />
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-platform.svg?v=2" width="100%" alt="Platform" />
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-n1.svg" width="24%" alt="N = 1 is the general case" />
-  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-credentials.svg" width="24%" alt="No standing credentials" />
-  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-audit.svg" width="24%" alt="Audit outlives its host" />
-  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-binary.svg" width="24%" alt="One binary" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/layers.svg?v=2" width="100%" alt="Four layers: access, secrets, compute, network" />
 </p>
 
-<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider.svg" width="100%" alt="" />
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider-mirror.svg?v=2" width="100%" alt="" />
 
-<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-status.svg" width="100%" alt="Status" />
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-principles.svg?v=2" width="100%" alt="Principles" />
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-n1.svg?v=2" width="24%" alt="N = 1 is the general case" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-credentials.svg?v=2" width="24%" alt="No standing credentials" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-audit.svg?v=2" width="24%" alt="Audit outlives its host" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-binary.svg?v=2" width="24%" alt="One binary" />
+</p>
+
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider.svg?v=2" width="100%" alt="" />
+
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-status.svg?v=2" width="100%" alt="Status" />
 
 <div align="center">
 
