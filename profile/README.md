@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/hero.svg" width="100%" alt="MarStack Labs — infrastructure primitives: compute, identity, secrets, network" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/hero.svg" width="100%" alt="MarStack Labs — run your own cloud: compute, identity, secrets, network" />
 </p>
 
 <p align="center">
