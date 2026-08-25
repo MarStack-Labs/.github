@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="272" viewBox="0 0 1200 272" role="img" aria-label="Platform layers: access, secrets, compute, network">
+  <defs>
+    <linearGradient id="lSpine" x1="0" y1="60" x2="0" y2="242" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#A78BFA"/>
+      <stop offset="0.4" stop-color="#6366F1"/>
+      <stop offset="0.72" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#28C840"/>
+    </linearGradient>
+    <clipPath id="lCard"><rect x="8" y="8" width="1184" height="256" rx="14"/></clipPath>
+    <pattern id="lGrid" width="26" height="26" patternUnits="userSpaceOnUse">
+      <path d="M26 0 H0 V26" fill="none" stroke="#161B22" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="272" fill="#010409"/>
+  <g clip-path="url(#lCard)">
+    <rect x="8" y="8" width="1184" height="256" fill="#0D1117"/>
+    <rect x="8" y="8" width="1184" height="256" fill="url(#lGrid)"/>
+  </g>
+  <rect x="8" y="8" width="1184" height="256" rx="14" fill="none" stroke="#30363D"/>
+
+  <g font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace">
+    <text x="36" y="42" font-size="13" letter-spacing="2.5" fill="#6E7681">// PLATFORM</text>
+    <text x="1164" y="42" font-size="12" letter-spacing="1.5" fill="#8B949E" text-anchor="end">one API, one binary per layer</text>
+  </g>
+
+  <path d="M100 60 V242" stroke="#21262D" stroke-width="3" stroke-linecap="round"/>
+  <path d="M100 60 V242" stroke="url(#lSpine)" stroke-width="3" stroke-linecap="round" opacity="0.9"/>
+
+  <g>
+    <rect x="120" y="60" width="960" height="38" rx="10" fill="#0D1117" stroke="#A78BFA" stroke-opacity="0.45"/>
+    <rect x="120" y="60" width="4" height="38" rx="2" fill="#A78BFA"/>
+    <circle cx="100" cy="79" r="9" fill="#0D1117" stroke="#A78BFA" stroke-width="1.6"/>
+    <circle cx="100" cy="79" r="3.5" fill="#A78BFA">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="0.0s" repeatCount="indefinite"/>
+    </circle>
+    <text x="144" y="84" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="1.6" fill="#E6EDF3">ACCESS</text>
+    <text x="300" y="84" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.3" fill="#8B949E">who reaches a machine, and what they are allowed to do there</text>
+    <rect x="962" y="68" width="96" height="22" rx="11" fill="#010409" stroke="#A78BFA" stroke-opacity="0.4"/>
+    <text x="1010" y="83" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#A78BFA" text-anchor="middle">IDENTITY</text>
+  </g>
+  <g>
+    <rect x="120" y="108" width="960" height="38" rx="10" fill="#0D1117" stroke="#6366F1" stroke-opacity="0.45"/>
+    <rect x="120" y="108" width="4" height="38" rx="2" fill="#6366F1"/>
+    <circle cx="100" cy="127" r="9" fill="#0D1117" stroke="#6366F1" stroke-width="1.6"/>
+    <circle cx="100" cy="127" r="3.5" fill="#6366F1">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="0.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="144" y="132" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="1.6" fill="#E6EDF3">SECRETS</text>
+    <text x="300" y="132" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.3" fill="#8B949E">what a workload may read, issued short and recorded on every read</text>
+    <rect x="962" y="116" width="96" height="22" rx="11" fill="#010409" stroke="#6366F1" stroke-opacity="0.4"/>
+    <text x="1010" y="131" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#6366F1" text-anchor="middle">STATE</text>
+  </g>
+  <g>
+    <rect x="120" y="156" width="960" height="38" rx="10" fill="#0D1117" stroke="#22D3EE" stroke-opacity="0.45"/>
+    <rect x="120" y="156" width="4" height="38" rx="2" fill="#22D3EE"/>
+    <circle cx="100" cy="175" r="9" fill="#0D1117" stroke="#22D3EE" stroke-width="1.6"/>
+    <circle cx="100" cy="175" r="3.5" fill="#22D3EE">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+    <text x="144" y="180" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="1.6" fill="#E6EDF3">COMPUTE</text>
+    <text x="300" y="180" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.3" fill="#8B949E">containers, virtual machines and microVMs as one kind of object</text>
+    <rect x="962" y="164" width="96" height="22" rx="11" fill="#010409" stroke="#22D3EE" stroke-opacity="0.4"/>
+    <text x="1010" y="179" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#22D3EE" text-anchor="middle">RUNTIME</text>
+  </g>
+  <g>
+    <rect x="120" y="204" width="960" height="38" rx="10" fill="#0D1117" stroke="#28C840" stroke-opacity="0.45"/>
+    <rect x="120" y="204" width="4" height="38" rx="2" fill="#28C840"/>
+    <circle cx="100" cy="223" r="9" fill="#0D1117" stroke="#28C840" stroke-width="1.6"/>
+    <circle cx="100" cy="223" r="3.5" fill="#28C840">
+      <animate attributeName="opacity" values="0.3;1;0.3" dur="3s" begin="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <text x="144" y="228" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="14" font-weight="700" letter-spacing="1.6" fill="#E6EDF3">NETWORK</text>
+    <text x="300" y="228" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="12" letter-spacing="0.3" fill="#8B949E">native routing between them, no encapsulation, full MTU</text>
+    <rect x="962" y="212" width="96" height="22" rx="11" fill="#010409" stroke="#28C840" stroke-opacity="0.4"/>
+    <text x="1010" y="227" font-family="ui-monospace, SFMono-Regular, SF Mono, Menlo, Consolas, monospace" font-size="10" letter-spacing="1.2" fill="#28C840" text-anchor="middle">FABRIC</text>
+  </g>
+</svg>

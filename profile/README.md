@@ -1,29 +1,51 @@
-# MarStack Labs
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/hero.svg" width="100%" alt="MarStack Labs — infrastructure primitives: compute, identity, secrets, network" />
+</p>
 
-Infrastructure primitives for people who run their own machines.
+<p align="center">
+  <a href="https://github.com/umars28"><img src="https://img.shields.io/badge/Maintained%20by-@umars28-22D3EE?style=for-the-badge&logo=github&logoColor=white" alt="Maintainer" /></a>
+  <a href="https://umars28.github.io"><img src="https://img.shields.io/badge/Portal-umars28.github.io-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portal" /></a>
+  <img src="https://img.shields.io/badge/Built%20with-Go-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
+</p>
 
-Three pieces, built to work together and to work alone: something to run workloads on, something to
-hold their secrets, and something to control who reaches the box.
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider.svg" width="100%" alt="" />
 
-## Projects
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-platform.svg" width="100%" alt="Platform" />
 
-| Project | What it is | Status |
-|---|---|---|
-| `marstack-cloud` | Containers, VMs, and microVMs as one resource type — on a single node or across many baremetal machines, through the same code and the same API | Control plane skeleton |
-| `marstack-secrets` | Secret and parameter store. Machine identities, bounded-lifetime access, every read recorded | Early development |
-| `marstack-access` | Identity-aware access to Linux hosts. No standing credentials, agentless, sessions you can grep | Pre-release |
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/layers.svg" width="100%" alt="Four layers: access, secrets, compute, network" />
+</p>
 
-Repositories stay private while the interfaces move. Nothing here is ready for anything you care
-about.
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider-mirror.svg" width="100%" alt="" />
 
-## How these are built
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-principles.svg" width="100%" alt="Principles" />
 
-| | |
-|---|---|
-| `N=1` is the general case | a one-node deployment takes the same code path as a hundred |
-| No standing credentials | a secret long-lived enough to be worth stealing is a design failure |
-| Audit outlives its host | owning a component does not erase what it already reported |
-| Names, not addresses | every resource is reachable by name from the moment it exists |
-| Boundaries are deliberate | what each project refuses to do is written down, with the reasoning |
+<p align="center">
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-n1.svg" width="24%" alt="N = 1 is the general case" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-credentials.svg" width="24%" alt="No standing credentials" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-audit.svg" width="24%" alt="Audit outlives its host" />
+  <img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/panel-binary.svg" width="24%" alt="One binary" />
+</p>
 
-Go, one binary per project, no runtime to install first.
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/divider.svg" width="100%" alt="" />
+
+<img src="https://raw.githubusercontent.com/MarStack-Labs/.github/main/profile/assets/title-status.svg" width="100%" alt="Status" />
+
+<div align="center">
+
+<sub>Everything here is pre-release. Interfaces move without warning, and work opens up as it settles.</sub>
+
+<br>
+
+<sub>Built and maintained by <a href="https://github.com/umars28">@umars28</a> · Indonesia, GMT+7</sub>
+
+<br><br>
+
+<a href="https://umars28.github.io"><img src="https://img.shields.io/badge/Read%20more-umars28.github.io-6366F1?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portal" /></a>
+<a href="mailto:umarsabirin369@gmail.com"><img src="https://img.shields.io/badge/Get%20in%20touch-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+
+</div>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:22D3EE,50:6366F1,100:0F172A&height=120&section=footer" alt="" />
+</p>
